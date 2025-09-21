@@ -1,3 +1,6 @@
+![Travel App UI](https://github.com/nikka471/TravelApp/blob/1581822cf8c78bbead1b315b59c13b390d6e31e4/travelapp.jpeg?raw=true)
+
+
 # Airbnb Style Rental UI – Android App
 
 This Android application replicates the user interface of an Airbnb-style rental platform. It is built using native Android components like `ScrollView`, `CardView`, and `SearchView` with a clean and modern layout. The app showcases various sections including:
