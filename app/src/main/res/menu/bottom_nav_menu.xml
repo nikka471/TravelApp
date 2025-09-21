@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_explore"
+        android:title="Explore"
+        android:icon="@drawable/outline_find_replace_24" />
+
+    <item
+        android:id="@+id/nav_wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/outline_heart_check_24" />
+
+    <item
+        android:id="@+id/nav_trips"
+        android:title="Trips"
+        android:icon="@drawable/outline_mode_of_travel_24" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:title="Message"
+        android:icon="@drawable/outline_mail_24" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:title="Login"
+        android:icon="@drawable/outline_person_24" />
+
+</menu>

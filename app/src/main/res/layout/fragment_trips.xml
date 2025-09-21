@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".fragment.TripsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trips"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Blur Animation Placeholder -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <!-- Replace with real animation later -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:alpha="0.5"
+                android:src="@drawable/dubai" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Build the perfect trip -->
+        <TextView
+            android:id="@+id/tvBuildTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build the perfect Trip"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvTripDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore homes, experiences and services.\nWhen you book, your reservations will appear here."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Get Started Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:background="@drawable/btn_continue_background"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</ScrollView>
